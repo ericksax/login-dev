@@ -1,0 +1,18 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #181818;
+  color: #fff;
+  height: 1vh;
+  font-size: 1.6rem;
+}
