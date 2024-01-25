@@ -1,0 +1,21 @@
+div {
+    display: flex; 
+    flex-direction: column; 
+    alignItems: lex-start; 
+    width: 100%;
+    margin: 12px 0;
+
+    input {
+        width: 100%;
+        padding: 8px;
+        background: #282828;
+        border: none;
+        border-radius: 2px;
+        color: #fff;
+    }
+
+    label {
+        margin-bottom: 4px;
+        color: rgba(255, 255, 255, 60%);
+    }
+}

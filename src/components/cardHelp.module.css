@@ -1,0 +1,62 @@
+.container {
+    all: unset;
+   
+    background-color: #202020;
+    padding: 24px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 1.6rem;
+    
+    svg {
+        margin-top: 1rem;
+        cursor: pointer;
+        color: rgba(255, 255, 255, 60%);
+
+        &:hover{
+            transform: scale(1.1);
+            transition: transform 0.5s ease-in;
+        }
+    }
+
+    > div {
+        all: unset;
+    };
+
+    p {
+        color: rgba(255, 255, 255, 60%);
+    }
+
+    strong {
+        display: block;
+        margin-bottom: .8rem;
+    };
+
+    article {
+        margin-bottom: 1.6rem;
+        padding: 0.8rem;
+        background-color: rgba(255, 255, 255, 4%);
+        border: 1px solid rgba(255, 255, 255, 6%);
+        border-radius: 4px;
+        font-size: 1.2rem;
+        color: rgba(255, 255, 255, 60%);
+    }
+
+
+    .badges-list {
+        padding: 0.8rem 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    button {
+        all: unset;
+        display: block;
+        width: auto;
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        background-color: rgba(0, 255, 100, .5);
+        float: right;
+    }
+}

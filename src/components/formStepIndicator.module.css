@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    max-width: 480px;
+    margin: 10rem auto 0;
+    gap: 1rem;
+ 
+    span {
+        background: green;
+        position: relative;
+        text-align: center;
+        font-size: 1.2rem;
+        height: 2.4rem;
+        width: 2.4rem;
+        line-height: 2.4rem;
+        border-radius: 50%;
+        color: #fff;
+    };
+
+    span:nth-child(2)::before {
+    position: absolute;
+    content: '';
+    top: 1.2rem;
+    left: 6rem;
+    height: 0.1rem;
+    width: 190%;
+    background: #fff;
+    color: green;
+    };
+}

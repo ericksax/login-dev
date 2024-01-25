@@ -1,0 +1,35 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 480px;
+    background-color: #202020;
+    padding: 24px;
+    margin: 2rem auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button-container {
+    all: unset;
+    margin-top: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 50%;
+    align-self: end;
+    height: auto
+}
+
+select {
+    width: 100%;
+    margin-top: 0.4rem;
+    padding: 8px;
+    background: #282828;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+}

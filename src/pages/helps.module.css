@@ -1,0 +1,9 @@
+.main-container {
+    width: 100%;
+    max-width: 60%;
+    border-left: 1px solid #202020;
+    
+    min-height: 100vh;
+    padding: 24px;
+    margin: 120px auto;
+}

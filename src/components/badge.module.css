@@ -1,0 +1,8 @@
+.badge-container {
+    width: ;
+    background-color: rgba(0, 255, 100, 0.1);
+    color: rgba(0, 255, 100, .6);
+    padding: 2px 8px;
+    font-size: 12px;
+    border-radius: 4px;
+}
